@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.wrapper {
+  margin-top: 7rem;
+  height: 500px;
+  width: 700px;
+}
+
+section.join {
+  height: 50%;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.join h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+.join h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1rem;
+}
+
+.join p {
+  color: hsl(218, 22%, 67%);
+}
+
+section.two {
+  height: 50%;
+  background-color: hsl(179, 62%, 43%);
+  display: flex;
+  color: hsl(204, 43%, 93%);
+}
+
+.first {
+  background-color: hsl(179, 62%, 43%);
+  flex: 1;
+  padding: 55px 35px;
+}
+span.price{
+  font-size: 2rem;
+  font-weight: bold;
+  /* margin: 10px; */
+}
+.price-ctn{
+  margin: 1rem 0;
+}
+button.btn {
+  font-size: 25px;
+  padding: 10px 75px;
+  margin: 8px 0 25px 0;
+  color: hsl(204, 43%, 93%);;
+  background-color: hsl(71, 73%, 54%);;
+}
+.second {
+  background-color: rgb(77, 194, 192);
+  flex: 1;
+  padding-left: 35px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.Why-ctn {
+  margin-top: 3rem;
+}
+ul li {
+  list-style-type: none;
+  line-height: 1.4rem;
+}
